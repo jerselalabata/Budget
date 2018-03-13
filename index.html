@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>My App</title>
+    <!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+	<link rel="icon" href="picture.png" type="image/x-icon">
+	<link href="Menucolor.css" rel="stylesheet">
+	<script src="js/form.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+			<img src="picture.png" width="260" height="150">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Budget Plan
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="signup.html">Signup</a>
+                </li>
+                <li>
+                    <a href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div class="style" id="page-content-wrapper">
+            <div class="container-fluid">
+                
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Menu</a>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    <br><br><br><br>
+	<div class="container">
+		<div class="col-8 offset-2">
+				<h3>Budget Plan</h3>
+				<p>The budget plan application are open to any filipinos who are willing to manage thier expenses
+				</p>
+		</div>
+	</div>
+	</div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
